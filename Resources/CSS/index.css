@@ -1,0 +1,152 @@
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: rgb(59, 59, 59);
+  text-align: center;
+  padding: 20px 50px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 900;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.navbar li a:hover {
+  background-color: rgb(255, 180, 195);
+}
+
+.navbar img {
+  width: 35px;
+  padding-right: 20px;
+  margin-left: 40px;
+}
+
+a.red {
+  color: red;
+}
+
+.banner {
+  background-color: crimson;
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+  padding: 50px 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.banner h1 {
+  font-size: 70px;
+}
+
+.banner p {
+  font-size: 20px;
+}
+
+#small-bigAl {
+  height: 180px;
+}
+
+.social-section {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 20px;
+}
+.social-section span {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.social-section p {
+  text-decoration: underline;
+  font-weight: 300;
+  color: crimson;
+}
+
+#posts {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 5px;
+}
+
+#posts li {
+  border: 1px solid black;
+  padding: 15px;
+  list-style: none;
+}
+
+.posts-section {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  padding: 30px;
+  text-align: center;
+  background-color: crimson;
+  color: white;
+}
+
+.posts-section input {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.delete-section {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  padding: 30px;
+  text-align: center;
+  background-color: crimson;
+  color: white;
+}
+
+.delete-section input {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.edit-section {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  padding: 30px;
+  text-align: center;
+  background-color: crimson;
+  color: white;
+}
+
+.edit-section input {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.reseed-section {
+  padding: 30px;
+  padding-bottom: 100px;
+  text-align: center;
+  font-size: 30px;
+  background-color: crimson;
+  color: white;
+}
+
+.reseed-section button {
+  font-weight: 600;
+  padding: 15px;
+}

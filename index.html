@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Resources/CSS/index.css" />
+    <title>BigAl Post's</title>
+  </head>
+
+  <body onload="getPosts()">
+    <script type="text/javascript" src="Resources/Scripts/index.js"></script>
+
+    <!-- Navbar-->
+    <nav class="navbar">
+      <ul>
+        <li><img src="Resources/Images/bigal1.png" /></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Big Al Tweet's</a></li>
+        <li><a href="#">Contact Big Al</a></li>
+      </ul>
+    </nav>
+
+    <!-- Banner Section-->
+    <section class="banner">
+      <h1>Big Al's Tweet's!</h1>
+      <img id="small-bigAl" src="./Resources/Images/bigal1.png" />
+      <p>Because everything is better with big Al</p>
+    </section>
+
+    <!-- Social Section -->
+    <section class="social-section">
+      <span>Tweets:</span>
+      <p>User: Big_AL999</p>
+    </section>
+
+    <!-- Posts Section -->
+    <div id="posts"></div>
+
+    <!-- New Posts Section -->
+    <div class="posts-section">
+      <form onsubmit="return false;" method="post">
+        <label for="postText">New Post</label> <br />
+        <input type="text" name="postText" id="editText" />
+        <input type="submit" value="Post" onclick="postPost()" />
+      </form>
+    </div>
+
+    <!-- Delete Post Section -->
+    <div class="delete-section">
+      <form onsubmit="return false;" method="delete">
+        <label for="deletePostDate">Delete Post By ID</label> <br />
+        <input type="text" name="deletePostDate" id="deletePost" />
+        <input type="submit" value="Delete" onclick="removePost()" />
+      </form>
+    </div>
+
+    <!-- Edit Post Section -->
+    <div class="edit-section">
+      <form onsubmit="return false;" method="put">
+        <label for="changePost">Edit Post By ID</label>
+        <input type="text" name="changePost" id="editID" /> <br />
+        <label for="changeText">Edit Text</label>
+        <input type="text" name="changeText" id="editText" /> <br />
+        <input type="submit" value="Edit" onclick="editPost()"/>
+      </form>
+    </div>
+
+    <!-- Reseed Section -->
+    <div class="reseed-section">
+      <button onclick="reseedDatabase()" style="font-size: 15px">
+        Reseed Database
+      </button>
+    </div>
+  </body>
+</html>
